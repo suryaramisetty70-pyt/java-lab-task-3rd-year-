@@ -29,6 +29,17 @@ java-lab-task-3rd-year/
 │   ├── Week2_Session9_TopKFrequentElements.java
 │   ├── Week2_Session10_JavaDeque.java
 │   └── Week2_Session10_JavaHashSet.java
+├── Week3/
+│   ├── Week3_Session11_JavaDateAndTime.java
+│   ├── Week3_Session11_DaysBetweenDates.java
+│   ├── Week3_Session12_DayOfTheYear.java
+│   ├── Week3_Session12_DayOfTheWeek.java
+│   ├── Week3_Session13_JavaPriorityQueue.java
+│   ├── Week3_Session13_JavaArrayList.java
+│   ├── Week3_Session14_LargestNumber.java
+│   ├── Week3_Session14_JavaComparator.java
+│   ├── Week3_Session15_SortArrayByParity.java
+│   └── Week3_Session15_SortThePeople.java
 ├── .gitignore
 └── README.md
 ```
@@ -67,6 +78,25 @@ java-lab-task-3rd-year/
 
 ---
 
+## 📖 Week 3 Tasks Overview
+- **Session 11 (Date and Time Handling Concepts)**:
+  1. Java Date and Time (HackerRank)
+  2. Number of Days Between Two Dates (LeetCode 1360)
+- **Session 12 (Date and Time Handling Concepts)**:
+  1. Day of the Year (LeetCode 1154)
+  2. Day of the Week (LeetCode 1185)
+- **Session 13 (Collection Processing & Transformation)**:
+  1. Java Priority Queue (HackerRank)
+  2. Java ArrayList (HackerRank)
+- **Session 14 (Custom Comparators)**:
+  1. Largest Number (LeetCode 179)
+  2. Java Comparator (HackerRank)
+- **Session 15 (Custom Comparators & Sorting Logic)**:
+  1. Sort Array By Parity (LeetCode 905)
+  2. Sort the People (LeetCode 2418)
+
+---
+
 ## 🚀 How to Run the Code
 
 1. Navigate to the desired week folder:
@@ -74,6 +104,8 @@ java-lab-task-3rd-year/
    cd Week1
    # OR
    cd Week2
+   # OR
+   cd Week3
    ```
 
 2. Compile and Run any task file:
