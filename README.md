@@ -1,6 +1,6 @@
 # 📚 Java 3rd Year Lab Tasks
 
-Welcome! This repository contains Java programs for 3rd Year Java Lab Tasks organized week-by-week.
+Welcome! This repository contains Java programs for 3rd Year Java Lab Tasks and Class Tasks organized by folders.
 
 ---
 
@@ -8,6 +8,12 @@ Welcome! This repository contains Java programs for 3rd Year Java Lab Tasks orga
 
 ```text
 java-lab-task-3rd-year/
+├── ClassTasks/
+│   ├── AgeCalculator.java
+│   ├── CurrentLocalDateTime.java
+│   ├── UppercaseNamesStream.java
+│   ├── SquaresOfEvenNumbersStream.java
+│   └── StreamFilterMapForEach.java
 ├── Week1/
 │   ├── Task2_ArrayIndexAccess.java
 │   ├── Task3_BinarySearch.java
@@ -46,6 +52,15 @@ java-lab-task-3rd-year/
 
 ---
 
+## 📖 Class Tasks Overview
+- **`AgeCalculator.java`**: Calculate age in Years, Months, and Days using `java.time.Period`.
+- **`CurrentLocalDateTime.java`**: Find and print current LocalDate, LocalTime, and LocalDateTime.
+- **`UppercaseNamesStream.java`**: Convert and print names in uppercase using Java Stream API.
+- **`SquaresOfEvenNumbersStream.java`**: Filter even numbers and print their squares using Java Stream API.
+- **`StreamFilterMapForEach.java`**: Perform Stream operations: stream conversion, filtering, mapping, and `forEach()`.
+
+---
+
 ## 📖 Week 1 Tasks Overview
 - **Task 2**: Access and print the element at a given index in an array
 - **Task 3**: Search for a given element in a sorted array using Binary Search
@@ -60,47 +75,29 @@ java-lab-task-3rd-year/
 ---
 
 ## 📖 Week 2 Tasks Overview
-- **Session 6 (Functional Programming using map)**:
-  1. Build Array from Permutation (LeetCode 1920)
-  2. Shuffle the Array (LeetCode 1470)
-- **Session 7 (Functional Programming using filter)**:
-  1. Remove Element (LeetCode 27)
-  2. Remove Duplicates from Sorted Array (LeetCode 26)
-- **Session 8 (Functional Programming using reduce)**:
-  1. Maximum Subarray (LeetCode 53)
-  2. Find the Highest Altitude (LeetCode 1732)
-- **Session 9 (Stream & Pipeline Processing)**:
-  1. Group Anagrams (LeetCode 49)
-  2. Top K Frequent Elements (LeetCode 347)
-- **Session 10 (Stream API & Collection Processing)**:
-  1. Java Deque (HackerRank)
-  2. Java HashSet (HackerRank)
+- **Session 6 (Functional Programming using map)**: Build Array from Permutation, Shuffle the Array
+- **Session 7 (Functional Programming using filter)**: Remove Element, Remove Duplicates
+- **Session 8 (Functional Programming using reduce)**: Maximum Subarray, Find Highest Altitude
+- **Session 9 (Stream & Pipeline Processing)**: Group Anagrams, Top K Frequent Elements
+- **Session 10 (Stream API & Collection Processing)**: Java Deque, Java HashSet
 
 ---
 
 ## 📖 Week 3 Tasks Overview
-- **Session 11 (Date and Time Handling Concepts)**:
-  1. Java Date and Time (HackerRank)
-  2. Number of Days Between Two Dates (LeetCode 1360)
-- **Session 12 (Date and Time Handling Concepts)**:
-  1. Day of the Year (LeetCode 1154)
-  2. Day of the Week (LeetCode 1185)
-- **Session 13 (Collection Processing & Transformation)**:
-  1. Java Priority Queue (HackerRank)
-  2. Java ArrayList (HackerRank)
-- **Session 14 (Custom Comparators)**:
-  1. Largest Number (LeetCode 179)
-  2. Java Comparator (HackerRank)
-- **Session 15 (Custom Comparators & Sorting Logic)**:
-  1. Sort Array By Parity (LeetCode 905)
-  2. Sort the People (LeetCode 2418)
+- **Session 11**: Java Date and Time, Number of Days Between Two Dates
+- **Session 12**: Day of the Year, Day of the Week
+- **Session 13**: Java Priority Queue, Java ArrayList
+- **Session 14**: Largest Number, Java Comparator
+- **Session 15**: Sort Array By Parity, Sort the People
 
 ---
 
 ## 🚀 How to Run the Code
 
-1. Navigate to the desired week folder:
+1. Navigate to the desired folder:
    ```powershell
+   cd ClassTasks
+   # OR
    cd Week1
    # OR
    cd Week2
