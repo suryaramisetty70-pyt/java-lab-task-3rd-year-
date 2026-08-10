@@ -1,4 +1,4 @@
-# 📚 Java 3rd Year Lab Tasks
+# 📚 Java 3rd Year Lab Tasks & Class Tasks
 
 Welcome! This repository contains Java programs for 3rd Year Java Lab Tasks and Class Tasks organized by folders.
 
@@ -13,7 +13,11 @@ java-lab-task-3rd-year/
 │   ├── CurrentLocalDateTime.java
 │   ├── UppercaseNamesStream.java
 │   ├── SquaresOfEvenNumbersStream.java
-│   └── StreamFilterMapForEach.java
+│   ├── StreamFilterMapForEach.java
+│   ├── EmployeeSalaryAscending.java
+│   ├── EmployeeSalaryDescending.java
+│   ├── EmployeeDeptAlphabetical.java
+│   └── EmployeeDeptSalaryDescending.java
 ├── Week1/
 │   ├── Task2_ArrayIndexAccess.java
 │   ├── Task3_BinarySearch.java
@@ -58,6 +62,10 @@ java-lab-task-3rd-year/
 - **`UppercaseNamesStream.java`**: Convert and print names in uppercase using Java Stream API.
 - **`SquaresOfEvenNumbersStream.java`**: Filter even numbers and print their squares using Java Stream API.
 - **`StreamFilterMapForEach.java`**: Perform Stream operations: stream conversion, filtering, mapping, and `forEach()`.
+- **`EmployeeSalaryAscending.java`**: Sort employees by salary in ascending order (`Comparator.comparing`).
+- **`EmployeeSalaryDescending.java`**: Sort employees by salary in descending order (`reversed()`).
+- **`EmployeeDeptAlphabetical.java`**: Sort employees by department name alphabetically.
+- **`EmployeeDeptSalaryDescending.java`**: Multiple fields sorting: Department alphabetically + Salary descending (`thenComparing()`).
 
 ---
 
