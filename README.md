@@ -17,7 +17,20 @@ java-lab-task-3rd-year/
 │   ├── EmployeeSalaryAscending.java
 │   ├── EmployeeSalaryDescending.java
 │   ├── EmployeeDeptAlphabetical.java
-│   └── EmployeeDeptSalaryDescending.java
+│   ├── EmployeeDeptSalaryDescending.java
+│   ├── LambdaAddTwoIntegers.java
+│   ├── LambdaCheckEven.java
+│   ├── LambdaSquareNumber.java
+│   ├── LambdaCompareStringsByLength.java
+│   ├── HigherOrderFunctionArgument.java
+│   ├── HigherOrderPredicateFilter.java
+│   ├── HigherOrderConsumerProcessNames.java
+│   ├── HigherOrderFunctionSequentialComposition.java
+│   ├── SortIntegersAscending.java
+│   ├── SortIntegersDescending.java
+│   ├── SortNamesAlphabetically.java
+│   ├── SortNamesByLength.java
+│   └── StudentSortByMarks.java
 ├── Week1/
 │   ├── Task2_ArrayIndexAccess.java
 │   ├── Task3_BinarySearch.java
@@ -50,53 +63,39 @@ java-lab-task-3rd-year/
 │   ├── Week3_Session14_JavaComparator.java
 │   ├── Week3_Session15_SortArrayByParity.java
 │   └── Week3_Session15_SortThePeople.java
+├── Week4/
+│   ├── Week4_Session1_DetermineIfStringHalvesAreAlike.java
+│   ├── Week4_Session1_Lapindromes.java
+│   ├── Week4_Session2_CompareTheTriplets.java
+│   ├── Week4_Session2_ContainsDuplicate.java
+│   ├── Week4_Session3_TimeConversion.java
+│   ├── Week4_Session3_MoveZeroes.java
+│   ├── Week4_Session4_DiagonalDifference.java
+│   ├── Week4_Session4_TransposeMatrix.java
+│   ├── Week4_Session5_MatrixBlockSum.java
+│   └── Week4_Session5_MatrixRotationAlgo.java
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 📖 Class Tasks Overview
-- **`AgeCalculator.java`**: Calculate age in Years, Months, and Days using `java.time.Period`.
-- **`CurrentLocalDateTime.java`**: Find and print current LocalDate, LocalTime, and LocalDateTime.
-- **`UppercaseNamesStream.java`**: Convert and print names in uppercase using Java Stream API.
-- **`SquaresOfEvenNumbersStream.java`**: Filter even numbers and print their squares using Java Stream API.
-- **`StreamFilterMapForEach.java`**: Perform Stream operations: stream conversion, filtering, mapping, and `forEach()`.
-- **`EmployeeSalaryAscending.java`**: Sort employees by salary in ascending order (`Comparator.comparing`).
-- **`EmployeeSalaryDescending.java`**: Sort employees by salary in descending order (`reversed()`).
-- **`EmployeeDeptAlphabetical.java`**: Sort employees by department name alphabetically.
-- **`EmployeeDeptSalaryDescending.java`**: Multiple fields sorting: Department alphabetically + Salary descending (`thenComparing()`).
-
----
-
-## 📖 Week 1 Tasks Overview
-- **Task 2**: Access and print the element at a given index in an array
-- **Task 3**: Search for a given element in a sorted array using Binary Search
-- **Task 4**: Find the maximum element in an array of n integers
-- **Task 5**: Find the Kth smallest element in an array
-- **Task 6**: Print all possible pairs of elements from an array
-- **Task 7**: `digitSum opt`: Sum of even or odd digits (Lambda Expressions)
-- **Task 8**: Nth Fibonacci (Lambda Expressions)
-- **Task 9**: Is Palindrome Number? (Functional Interfaces & Method References)
-- **Task 10**: Sum of last digits of two numbers (Functional Interfaces & Method References)
-
----
-
-## 📖 Week 2 Tasks Overview
-- **Session 6 (Functional Programming using map)**: Build Array from Permutation, Shuffle the Array
-- **Session 7 (Functional Programming using filter)**: Remove Element, Remove Duplicates
-- **Session 8 (Functional Programming using reduce)**: Maximum Subarray, Find Highest Altitude
-- **Session 9 (Stream & Pipeline Processing)**: Group Anagrams, Top K Frequent Elements
-- **Session 10 (Stream API & Collection Processing)**: Java Deque, Java HashSet
-
----
-
-## 📖 Week 3 Tasks Overview
-- **Session 11**: Java Date and Time, Number of Days Between Two Dates
-- **Session 12**: Day of the Year, Day of the Week
-- **Session 13**: Java Priority Queue, Java ArrayList
-- **Session 14**: Largest Number, Java Comparator
-- **Session 15**: Sort Array By Parity, Sort the People
+## 📖 Week 4 Tasks Overview
+- **Session 1 (Constraint-Driven Solution Design)**:
+  1. Determine if String Halves Are Alike (LeetCode 1704)
+  2. Lapindromes (CodeChef LAPIN)
+- **Session 2 (Competitive Problem Patterns)**:
+  1. Compare the Triplets (HackerRank)
+  2. Contains Duplicate (LeetCode 217)
+- **Session 3 (Writing Efficient Code)**:
+  1. Time Conversion (HackerRank)
+  2. Move Zeroes (LeetCode 283)
+- **Session 4 (Matrix Basics)**:
+  1. Diagonal Difference (HackerRank)
+  2. Transpose Matrix (LeetCode 867)
+- **Session 5 (Strassen's Matrix Multiplication & Matrix Block Sum)**:
+  1. Matrix Block Sum (LeetCode 1314)
+  2. Matrix Layer Rotation / Matrix Rotation Algo (HackerRank)
 
 ---
 
@@ -104,13 +103,7 @@ java-lab-task-3rd-year/
 
 1. Navigate to the desired folder:
    ```powershell
-   cd ClassTasks
-   # OR
-   cd Week1
-   # OR
-   cd Week2
-   # OR
-   cd Week3
+   cd Week4
    ```
 
 2. Compile and Run any task file:
