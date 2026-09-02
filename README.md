@@ -74,28 +74,39 @@ java-lab-task-3rd-year/
 │   ├── Week4_Session4_TransposeMatrix.java
 │   ├── Week4_Session5_MatrixBlockSum.java
 │   └── Week4_Session5_MatrixRotationAlgo.java
+├── Week5/
+│   ├── Week5_Session1_MaximumSubarray.java
+│   ├── Week5_Session1_TheBirthdayBar.java
+│   ├── Week5_Session2_MaxSubarray.java
+│   ├── Week5_Session2_MaximumSumCircularSubarray.java
+│   ├── Week5_Session3_StringToIntegerAtoi.java
+│   ├── Week5_Session3_AlternatingCharacters.java
+│   ├── Week5_Session4_LongestSubstringWithoutRepeatingCharacters.java
+│   ├── Week5_Session4_FindAndReplacePattern.java
+│   ├── Week5_Session5_StringMatchingInAnArray.java
+│   └── Week5_Session5_NaivePatternSearching.java
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 📖 Week 4 Tasks Overview
-- **Session 1 (Constraint-Driven Solution Design)**:
-  1. Determine if String Halves Are Alike (LeetCode 1704)
-  2. Lapindromes (CodeChef LAPIN)
-- **Session 2 (Competitive Problem Patterns)**:
-  1. Compare the Triplets (HackerRank)
-  2. Contains Duplicate (LeetCode 217)
-- **Session 3 (Writing Efficient Code)**:
-  1. Time Conversion (HackerRank)
-  2. Move Zeroes (LeetCode 283)
-- **Session 4 (Matrix Basics)**:
-  1. Diagonal Difference (HackerRank)
-  2. Transpose Matrix (LeetCode 867)
-- **Session 5 (Strassen's Matrix Multiplication & Matrix Block Sum)**:
-  1. Matrix Block Sum (LeetCode 1314)
-  2. Matrix Layer Rotation / Matrix Rotation Algo (HackerRank)
+## 📖 Week 5 Tasks Overview
+- **Session 1 (Maximum Subarray: Brute -> Optimized)**:
+  1. Maximum Subarray (LeetCode 53)
+  2. Subarray Division / The Birthday Bar (HackerRank)
+- **Session 2 (Kadane's Algorithm)**:
+  1. The Maximum Subarray (HackerRank)
+  2. Maximum Sum Circular Subarray (LeetCode 918)
+- **Session 3 (String Handling Basics)**:
+  1. String to Integer (atoi) (LeetCode 8)
+  2. Alternating Characters (HackerRank)
+- **Session 4 (Advanced String Techniques)**:
+  1. Longest Substring Without Repeating Characters (LeetCode 3)
+  2. Find and Replace Pattern (LeetCode 890)
+- **Session 5 (Naive Pattern Matching)**:
+  1. String Matching in an Array (LeetCode 1408)
+  2. Naive Algorithm for Pattern Searching (GeeksforGeeks)
 
 ---
 
@@ -103,7 +114,7 @@ java-lab-task-3rd-year/
 
 1. Navigate to the desired folder:
    ```powershell
-   cd Week4
+   cd Week5
    ```
 
 2. Compile and Run any task file:
