@@ -85,28 +85,39 @@ java-lab-task-3rd-year/
 │   ├── Week5_Session4_FindAndReplacePattern.java
 │   ├── Week5_Session5_StringMatchingInAnArray.java
 │   └── Week5_Session5_NaivePatternSearching.java
+├── Week6/
+│   ├── Week6_Session1_StringSimilarity.java
+│   ├── Week6_Session1_RepeatedSubstringPattern.java
+│   ├── Week6_Session2_TwoStrings.java
+│   ├── Week6_Session2_RotateString.java
+│   ├── Week6_Session3_MarsExploration.java
+│   ├── Week6_Session3_FindAllAnagramsInAString.java
+│   ├── Week6_Session4_PalindromeIndex.java
+│   ├── Week6_Session4_FirstOccurrenceInString.java
+│   ├── Week6_Session5_LongestPalindromicSubstring.java
+│   └── Week6_Session5_CircularPalindromes.java
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 📖 Week 5 Tasks Overview
-- **Session 1 (Maximum Subarray: Brute -> Optimized)**:
-  1. Maximum Subarray (LeetCode 53)
-  2. Subarray Division / The Birthday Bar (HackerRank)
-- **Session 2 (Kadane's Algorithm)**:
-  1. The Maximum Subarray (HackerRank)
-  2. Maximum Sum Circular Subarray (LeetCode 918)
-- **Session 3 (String Handling Basics)**:
-  1. String to Integer (atoi) (LeetCode 8)
-  2. Alternating Characters (HackerRank)
-- **Session 4 (Advanced String Techniques)**:
-  1. Longest Substring Without Repeating Characters (LeetCode 3)
-  2. Find and Replace Pattern (LeetCode 890)
-- **Session 5 (Naive Pattern Matching)**:
-  1. String Matching in an Array (LeetCode 1408)
-  2. Naive Algorithm for Pattern Searching (GeeksforGeeks)
+## 📖 Week 6 Tasks Overview
+- **Session 1 (KMP Algorithm)**:
+  1. String Similarity (HackerRank)
+  2. Repeated Substring Pattern (LeetCode 459)
+- **Session 2 (KMP Applications)**:
+  1. Two Strings (HackerRank)
+  2. Rotate String (LeetCode 796)
+- **Session 3 (Boyer Moore Algorithm)**:
+  1. Mars Exploration (HackerRank)
+  2. Find All Anagrams in a String (LeetCode 438)
+- **Session 4 (Palindrome Techniques)**:
+  1. Palindrome Index (HackerRank)
+  2. Find the Index of the First Occurrence in a String (LeetCode 28)
+- **Session 5 (Manacher Algorithm for finding longest palindromic substring)**:
+  1. Longest Palindromic Substring (LeetCode 5)
+  2. Circular Palindromes (HackerRank)
 
 ---
 
@@ -114,7 +125,7 @@ java-lab-task-3rd-year/
 
 1. Navigate to the desired folder:
    ```powershell
-   cd Week5
+   cd Week6
    ```
 
 2. Compile and Run any task file:
