@@ -96,6 +96,34 @@ java-lab-task-3rd-year/
 │   ├── Week6_Task8_FirstOccurrenceInString.java
 │   ├── Week6_Task9_LongestPalindromicSubstring.java
 │   └── Week6_Task10_CircularPalindromes.java
+├── Week7/
+│   ├── Week7_Task1_DesignParkingSystem.java
+│   ├── Week7_Task2_JavaInstanceofKeyword.java
+│   ├── Week7_Task3_DesignUndergroundSystem.java
+│   ├── Week7_Task4_DesignBrowserHistory.java
+│   ├── Week7_Task5_DesignHashSet.java
+│   ├── Week7_Task6_GradingStudents.java
+│   ├── Week7_Task7_JavaInheritance1.java
+│   ├── Week7_Task8_JavaInheritance2.java
+│   ├── Week7_Task9_JavaGenerics.java
+│   └── Week7_Task10_ThroneInheritance.java
+├── Week8/
+│   ├── Week8_Task1_MethodOverriding.java
+│   ├── Week8_Task2_MethodOverridingSuperKeyword.java
+│   ├── Week8_Task3_JavaSingleton.java
+│   ├── Week8_Task4_JavaVisitorPattern.java
+│   ├── Week8_Task5_JavaIterator.java
+│   ├── Week8_Task6_JavaInterface.java
+│   ├── Week8_Task7_JavaHashSet.java
+│   ├── Week8_Task8_JavaFactoryPattern.java
+│   ├── Week8_Task9_JavaExceptionHandling.java
+│   └── Week8_Task10_JavaExceptionHandlingTryCatch.java
+├── Week9/
+│   ├── Week9_Task1_FactoryTemperatureMonitor.java
+│   ├── Week9_Task2_IntelligentCPUTaskScheduler.java
+│   ├── Week9_Task3_VehicleRentalSystem.java
+│   ├── Week9_Task4_PaymentProcessingSystem.java
+│   └── Week9_Task5_ExceptionDrivenFlowControl.java
 ├── .gitignore
 └── README.md
 ```
@@ -106,11 +134,11 @@ java-lab-task-3rd-year/
 
 1. Navigate to the desired folder:
    ```powershell
-   cd Week1
+   cd Week8
    ```
 
 2. Compile and Run any task file:
    ```powershell
-   javac Week1_Task1_ArrayIndexAccess.java
-   java Week1_Task1_ArrayIndexAccess
+   javac Week8_Task1_MethodOverriding.java
+   java Week8_Task1_MethodOverriding
    ```
